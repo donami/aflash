@@ -1,0 +1,22 @@
+{
+    "name": "donami/aflash",    
+    "type": "library",
+    "description": "Classes for HTML Forms",
+    "keywords": ["html", "forms", "education"],
+    "homepage": "http://bth.se/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Markus Hederström",
+            "email": "markus.hederstrom@email.com",
+            "homepage": "http://bth.se",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "donami\\": "src/" }
+    }
+}
